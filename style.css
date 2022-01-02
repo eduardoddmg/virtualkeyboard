@@ -1,0 +1,171 @@
+*
+{
+    font-family: sans-serif;
+}
+
+.content-principal
+{
+    width: 100%;
+}
+
+.space-writer
+{
+    border: 1px solid black;
+    width: 50%;
+    min-height: 15vh;
+    max-height: auto;
+    border-radius: 5px;
+    background-color: black;
+    margin: auto;
+}
+
+.keyboard
+{
+    border: 1px solid black;
+    width: 50%;
+    height: 35vh;
+    border-radius: 5px;
+    background-color: black;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.line-1 
+{
+    text-align: center;
+}
+
+.line-2
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.line-3
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.line-4
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.button-basic
+{
+    background-color: white;
+    color: black;
+    width: 6vh;
+    height: 6vh;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-basic:hover
+{
+    background-color: gray;
+}
+
+.button-apagar
+{
+    width: 9vh;
+    background-color: red;
+    color: white;
+}
+
+.barra-de-espaco
+{
+    width: 70%;
+}
+
+p
+{
+    color: black;
+    margin: 10px;
+}
+
+/*mobile*/
+@media only screen and (max-width: 900px)
+{
+    .keyboard
+    {
+        margin-top: 100px;
+        width: 90%;
+        height: 5%;
+    }
+    .space-writer
+    {
+        width: 90%;
+    }
+    .button-basic
+    {
+        width: 20px;
+        height: 3vh;
+        font-size: 13px;
+        font-family: bold;
+        margin: 1px;
+        text-align: center;
+    }
+    .barra-de-espaco
+    {
+        width: 80%;
+    }
+}
+/*mobile landscape*/
+@media only screen and (max-width: 900px) and (orientation: landscape)
+{
+    .button-basic
+    {
+        height: 25px;
+        width: 40px;
+    }
+    .barra-de-espaco
+    {
+        width: 80%;
+    }
+}
+/*table landscape*/
+@media only screen and (min-width: 700px) and (max-width: 1300px)
+{
+    .space-writer
+    {
+        margin-right: 150px;
+        width: 70%;
+    }
+    .keyboard
+    {
+        width: 70%;
+        margin-right: 150px;
+    }
+    .button-basic
+    {
+        width: 35px;
+    }
+    .barra-de-espaco
+    {
+        width: 80%;
+    }
+}
+/*tablet landscape*/
+@media only screen and (min-width: 700px) and (max-width: 1300px) and (orientation: landscape)
+{
+    .space-writer
+    {
+        margin-right: 37%;
+        width: 60%;
+    }
+    .keyboard
+    {
+        width: 60%;
+        margin-right: 37%;
+    }
+    
+}
